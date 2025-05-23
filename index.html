@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form action="">
+            <h2>Cadastrar produtos</h2>
+            <div class="divInput">
+                <label for="produtos">Produtos</label>
+                <input type="text" name="Produtos" id="produto" />
+            </div>
+            <div class="divInput">
+                <label for="Preco">Preço</label>
+                <input type="number" name="Preco" id="preco" />
+            </div>
+            <div class="divInput">
+                <label for="Categoria">Categoria</label>
+                <select name="Categoria" id="categoria">
+                    <option value="">Selecione uma categoria</option>
+                    <option value="Tecnologia">Tecnologia</option>
+                    <option value="Alimentos">Alimentos</option>
+                    <option value="Roupa">Roupa</option>
+                </select>
+            </div>
+
+            <button id="btn">Cadastrar</button>
+        </form>
+        <ul id="listaProdutos"></ul>
+    </body>
+    <script src="app.js"></script>
+</html>
